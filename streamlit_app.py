@@ -1,5 +1,5 @@
 import streamlit
 
-streamlit.title("\t my parents heathy dinner")
+streamlit.title("\n my parents heathy dinner")
 
 streamlit.title("Main disces")
