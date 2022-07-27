@@ -61,8 +61,7 @@ except URLError as e:
 # wscreen output
 #streamlit.dataframe(fruityvice_normalized)
 
-#don't run anything past here while we troubleshoot
-streamlit.stop()
+
 
 #here there was import snowflake connector
 streamlit.header("The fruit load list contains:")
@@ -82,7 +81,8 @@ if streamlit.button('Get fruit load list'):
 #my_cur = my_cnx.cursor()
 
 #my_data_rows = my_cur.fetchall()
-
+#don't run anything past here while we troubleshoot
+streamlit.stop()
 
 
 # let's enter another fruit
