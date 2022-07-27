@@ -1,2 +1,2 @@
-#requirements
-requirements-connector-python
+# requirements
+snowflake-connector-python
